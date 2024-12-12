@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
+body, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* General Header Styling */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background:  rgba(0, 0, 0, 0); /* Adjusted border color */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sticky-header.scrolled {
+  background: linear-gradient(45deg, #00000071, #00000071);
+  border-bottom-color: rgba(0, 0, 0, 0.1); /* Adjusted border color */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-container {
+  max-width: 1400px; /* Constrain the width */
+  margin: 0 auto; /* Center-align the header */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px; /* Inner padding */
+}
+
+/* Logo */
+.logo img {
+  height: 80px; /* Adjust the height as per your need */
+  width: auto; /* Maintain aspect ratio */
+  display: block; /* Ensures proper alignment */
+}
+
+/* Navigation Menu */
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  display: none;
+  position: absolute; /* Keep the menu out of normal flow */
+  top: 100%; /* Adjust based on the header height */
+  right: 0;
+  background-color: white; /* Background color for the menu */
+  width: 100%; /* Full-width for mobile */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Ensure it stays above other elements */
+}
+
+.menu.open {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 992px) {
+  .menu {
+    display: flex !important; /* Always visible on desktop */
+    position: static; /* Normal flow on desktop */
+    width: auto;
+    background-color: transparent; /* Match desktop style */
+    box-shadow: none;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff; /* White text for better visibility */
+  font-size: 1rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: #fff; /* Hover color */
+}
+
+/* Hide the button in mobile view */
+@media screen and (max-width: 992px) {
+  .header-button {
+      display: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .menu ul {
+      flex-direction: column;
+      gap: 20px;
+      display: none; /* Hide menu by default */
+      position: absolute;
+      top: 100%; /* Show below the header */
+      left: 0;
+      width: 100%;
+      background-color: black; /* Match header background */
+      padding: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .menu ul.active {
+      display: flex; /* Show menu when active */
+  }
+
+  .menu ul li {
+      text-align: center;
+  }
+
+  .menu ul li a {
+      font-size: 1.1rem;
+  }
+
+  .menu-toggle {
+      display: block;
+      cursor: pointer;
+      font-size: 1.5rem;
+      color: #ffffff;
   }
 }
+
+@media screen and (min-width: 993px) {
+  .menu-toggle {
+      display: none; /* Hide menu toggle on larger screens */
+  }
+}
+
+
+
+/* Glowing 3D Button */
+.btn-3d-glow-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #F1A42F; /* Button background color */
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15); /* Shadow for 3D effect */
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-3d-glow-button:hover {
+  background-color: #F18C29; /* Slightly darker color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15); /* Shadow for 3D effect */
+  transform: translateY(-4px); /* Slight lift effect */
+  animation: glow 1.5s infinite; /* Animation for glowing effect */
+}
+
+.btn-3d-glow-button:active {
+  transform: translateY(2px); /* Button pressed effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15); /* Shadow for 3D effect */
+  animation: none; /* Stop glowing effect when pressed */
+}
+@media (max-width: 768px) {
+  .btn-3d-glow-button {
+      width: auto;
+      padding: 12px 20px;
+  }
+}
+/* Glowing Animation */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 2px #F1A42F, 0 0 5px #F1A42F, 0 0 5px #F1A42F;
+  }
+  50% {
+    box-shadow: 0 0 10px #F1A42F, 0 0 10px #F1A42F, 0 0 10px #F1A42F;
+  }
+  100% {
+    box-shadow: 0 0 2px #F1A42F, 0 0 5px #F1A42F, 0 0 5px #F1A42F;
+  }
+}
+

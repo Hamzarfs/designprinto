@@ -1,0 +1,54 @@
+/* Client Reviews Section Styling */
+.client-reviews {
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.client-reviews h2 {
+  font-size: 55px;
+  font-weight: 800 !important;
+  color: #010935;
+  line-height: 1.1em;
+}
+
+.client-reviews .stars span {
+  margin-right: 5px;
+}
+
+.client-reviews p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.client-reviews img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .client-reviews h2 {
+    font-size: 32px;
+  }
+
+  .client-reviews p {
+    font-size: 16px;
+  }
+
+  .client-reviews img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .client-reviews h2 {
+    font-size: 40px;
+  }
+}

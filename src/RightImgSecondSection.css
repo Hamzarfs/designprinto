@@ -1,0 +1,70 @@
+/* RightImageSec.css */
+.right-image-section {
+  margin: 50px 0px;
+}
+
+.section-heading-h {
+  font-size: 50px;
+  font-weight: 800;
+  color: #333333; /* Custom heading color */
+  line-height: 1.1em;
+  margin-bottom: 20px;
+}
+
+.section-description-left {
+  font-size: 1rem;
+  color: #555;
+  text-align: justify;
+}
+
+/* Mobile view adjustments (for screens up to 768px) */
+@media (max-width: 768px) {
+  .section-heading-h {
+    font-size: 30px;
+    font-weight: 800;
+    color: #010935; /* Custom heading color */
+    margin-bottom: 10px;
+    text-align: left !important; /* Ensures left-alignment on mobile */
+  }
+
+  .section-description {
+    font-size: 14px; /* Description font size for mobile */
+    color: #555;
+    text-align: justify; /* Keeps text justified for readability */
+  }
+
+  .btn-3d-glow-button {
+    align-items: left;
+    width: auto; /* Full-width button on mobile */
+    padding: 12px 20px; /* Adjusted padding for mobile */
+  }
+
+  .right-image-section {
+    margin: 20px 0px;
+    padding-bottom: 30px;  /* Reduced padding for mobile */
+  }
+}
+
+/* Tablet view adjustments (for screens between 768px and 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section-heading-h {
+    font-size: 40px; /* Heading font size for tablet */
+    margin-bottom: 5px;
+    color: #010935; /* Custom heading color */
+  }
+
+  .section-description {
+    font-size: 16px; /* Description font size for tablet */
+    color: #555;
+    text-align: justify;
+  }
+
+  .btn-3d-glow-button {
+    padding: 12px 24px; /* Adjusted button padding for tablet */
+  }
+
+  .right-image-section {
+    margin: 30px 0px;
+    padding-bottom: 40px;  /* Padding for tablet view */
+  }
+}

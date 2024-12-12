@@ -1,0 +1,61 @@
+
+
+.right-image-section img {
+  padding-right: 0px !important;
+}
+
+/* RightImageSec.css */
+.right-image-section .container {
+  max-width: 1200px; /* Adjust this value to whatever you prefer */
+}
+
+.section-heading {
+  font-size: 50px;
+  font-weight: 800;
+  color: #333333; /* Custom heading color */
+  line-height: 1.1em;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  font-size: 1rem;
+  color: #555;
+  text-align: justify;
+}
+
+.section-description-left {
+  text-align: justify;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 30px;
+    font-weight: 800;
+    color: #010935; /* Custom heading color */
+    line-height: 1.1em;
+    margin-bottom: 10px;
+    text-align: left !important;
+
+  }
+  .section-description {
+    font-size: 14px; /* Description font size for mobile */
+  }
+  .right-image-section {
+    margin:0px;
+    padding-top: 20px;
+
+  }
+}
+
+/* Tablet view adjustments */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section-heading {
+    font-size: 40px; /* Heading font size for tablet */
+    margin-bottom: 5px;
+
+  }
+  .section-description {
+    font-size: 14px; /* Description font size for tablet */
+  }
+}

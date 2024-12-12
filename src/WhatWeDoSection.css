@@ -1,0 +1,106 @@
+/* Container */
+.unique-section-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.unique-section-container .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Subtitle */
+.unique-section-subtitle {
+  color: #DD1D8F;
+  font-weight: 600;
+}
+.section-heading-hy{
+  font-size: 50px;
+  font-weight: 800;
+  color: #333333; /* Custom heading color */
+  line-height: 1.1em;
+  margin-bottom: 20px;
+}
+
+/* Description */
+.unique-section-description {
+  color: #5a5a5a;
+  font-size: 16px;
+}
+
+/* Image Styling */
+.unique-image-group img {
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* List Styling */
+.unique-list {
+  padding-left: 0;
+}
+
+.unique-list-item {
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+/* Icon Styling */
+.unique-icon {
+  color: #DD1D8F; /* Pink color for the tick icon */
+  font-size: 18px;
+  margin-right: 10px;
+  box-shadow: none; /* Removed shadow */
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .section-heading-hy{
+    font-size: 40px;
+  }
+
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .image-container img {
+    margin-bottom: 20px; 
+  }
+
+  .tabs {
+    justify-content: center;
+  }
+  .tab .icon {
+    font-size: 8px;
+  }
+  .content-container h2 {
+    font-size: 34px; /* Adjust size as needed */
+  }
+  .tab {
+    padding: 5px 3px;
+    font-size: 14px;
+    border: none;
+    color: #ffffff;
+    border-bottom: 1px solid transparent;
+    line-height: 1.1em;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section-heading-hy{
+    font-size: 30px;
+  }
+  .tab {
+    padding: 0px 10px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  .content-container h2 {
+    font-size: 40px;
+}
+}

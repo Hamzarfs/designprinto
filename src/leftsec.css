@@ -1,0 +1,133 @@
+/* Section Styling */
+.tab-section  .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tab-section {
+  padding: 50px 0;
+  background: linear-gradient(135deg, #46276B, #1C4FAA);
+}
+
+/* Image Styling */
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Content Styling */
+.content-container h2 {
+  font-size: 48px; /* Adjust size as needed */
+  font-weight: bold;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px white; /* Outline color and thickness */
+  text-align: left; /* Center align if necessary */
+  text-transform: uppercase; /* Optional for style */
+}
+
+.content-container .highlight {
+  color:  #ffffff; /* Highlight color */
+}
+
+.content-container p {
+  margin: 10px 0;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.tab {
+  padding: 0px 10px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border: none;
+  background: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.tab.active {
+  color:  #ffffff; 
+  border-color:   #ffffff; 
+}
+
+.tab:hover {
+  color: #ffffff; 
+}
+
+.tab-content {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.tab .icon {
+  font-size: 34px;
+}
+
+.active-icon {
+  color:  #ffffff;  /* Highlight the active icon */
+}
+.tab-section h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff; /* Matches preferred heading color */
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .image-container img {
+    margin-bottom: 20px; 
+  }
+
+  .tabs {
+    justify-content: center;
+  }
+  .tab .icon {
+    font-size: 8px;
+  }
+  .content-container h2 {
+    font-size: 34px; /* Adjust size as needed */
+  }
+  .tab {
+    padding: 5px 3px;
+    font-size: 14px;
+    border: none;
+    color: #ffffff;
+    border-bottom: 1px solid transparent;
+    line-height: 1.1em;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tab {
+    padding: 0px 10px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  .content-container h2 {
+    font-size: 40px;
+}
+}

@@ -1,0 +1,68 @@
+/* Services Section */
+.services-we-deliver-section{
+  padding-bottom: 50px;
+}
+.services-section-title {
+  font-size: 55px;
+  font-weight: 800;
+  color: #010935;
+  margin-bottom: 15px;
+}
+
+.highlight-text {
+  color: #DD1D8F;
+}
+
+/* Services Slide Item */
+.services-slide-item {
+  border-radius: 10px;
+  text-align: left;
+}
+
+.services-slide-image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.services-slide-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #010935;
+  text-align: left;
+
+}
+
+.services-slide-description {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 10px;
+  text-align: justify;
+
+}
+
+.services-slide-button {
+  padding: 10px 20px;
+  background-color: #DD1D8F;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: left;
+
+}
+
+.services-slide-button:hover {
+  background-color: #b31669;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .services-section-title {
+    font-size: 2rem;
+  }
+
+  .services-slide-item {
+    padding: 15px;
+  }
+}

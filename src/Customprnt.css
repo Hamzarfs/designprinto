@@ -1,0 +1,71 @@
+
+.custom-print-heading-unique {
+  font-size: 55px;
+  font-weight: 800 !important;
+  color: #333;
+}
+
+.highlight-text-unique {
+  color: #dd1d8f;
+}
+
+.custom-slider-unique .slick-slide img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.custom-nav-unique .nav-link {
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.custom-nav-unique .nav-link.active {
+  background-color: #ffffff00;
+  color: #1E8FD4;
+  padding-right: 0px 20px;
+}
+
+.custom-tab-pane-unique {
+  padding: 20px 0;
+}
+
+.custom-slide-unique {
+  text-align: center;
+}
+
+.custom-slider-unique .slick-slide {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-image-unique {
+  width: 23%; /* Adjust width to fit 4 images in a row */
+  object-fit: cover;
+  padding-right: 10px; /* Add 10px padding to the right side of images */
+}
+.custom-image-title {
+  text-align: center; /* Center-align the title */
+  font-size: 16px; /* Adjust font size */
+  font-weight: 600; /* Bold text */
+  margin-top: 10px; /* Space between image and title */
+  color: #333; /* Title text color */
+}
+
+@media (max-width: 768px) {
+  .custom-print-heading-unique {
+    font-size: 30px;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.custom-print-heading-unique {
+  font-size: 42px;
+  font-weight: 800 !important;
+  color: #333;
+  line-height: 1.1em;
+}
+}
