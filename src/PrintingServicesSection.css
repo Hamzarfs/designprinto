@@ -1,0 +1,80 @@
+/* CSS file: BannerSection.css */
+
+.how-it-works {
+  background-image: url('images/banner.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  margin-top: -140px;
+  display: flex;
+  justify-content: flex-start; /* Aligns content to the left */
+  align-items: center; /* Vertically centers content */
+}
+
+.banner-section {
+  display: flex;
+  justify-content: flex-start; /* Aligns content to the left */
+  align-items: center; /* Vertically centers content */
+  padding: 50px;
+  width: 100%;
+  height: 100%; /* Ensures it takes up the full height of the parent container */
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+.banner-content {
+  color: white; /* Ensures the text is visible over the background */
+  text-align: left; /* Aligns the text to the left */
+}
+
+.banner-content h1 {
+  font-size: 50px;
+  font-weight: 800; /* Corrected font weight to 800 */
+}
+
+.banner-content p {
+  font-size: 1rem;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.banner-button {
+  background-color: #F1A42F;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.banner-button:hover {
+  background-color: #F1A42F;
+}
+
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .banner-content h1 {
+    font-size: 34px;
+}
+.banner-section {
+  align-items: center; /* Vertically centers content */
+  padding: 0px;
+ 
+}
+.banner-image img {
+  margin-top: 30px;
+}
+.how-it-works {
+  
+  background-position: center;
+  padding-top: 121px;
+  padding-bottom: 40px;
+  min-height: 0%;
+}
+}

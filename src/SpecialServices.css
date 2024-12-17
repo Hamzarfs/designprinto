@@ -1,0 +1,91 @@
+/* SpecialServices.css */
+
+/* Section Wrapper */
+.special-services-section {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+/* Section Title */
+.special-services-section-title {
+  font-size: 55px;
+  font-weight: 700;
+  color: #333;
+}
+
+.special-services-section-title .highlight-text {
+  color: #DD1D8F; /* Highlight color */
+}
+
+/* Swiper Slide Item */
+.special-services-slide-item {
+  text-align: center;
+}
+
+
+/* Slide Image */
+.special-services-slide-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Slide Title */
+.special-services-slide-title {
+  margin-top: 15px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #010935; /* Title color */
+
+}
+.special-services-subheading {
+  font-size: 18px; /* Adjust as needed */
+  font-weight: 600; /* Semi-bold */
+  color: #DD1D8F;  /* Match the theme */
+  margin-top: 10px;
+  text-transform: uppercase;
+
+}
+
+.special-services-description {
+  font-size: 1rem; /* Standard paragraph size */
+  color: #6c757d; /* Muted text color */
+  margin-top: 5px;
+  margin-bottom: 30px;
+  line-height: 1.6; /* Improve readability */
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .special-services-subheading {
+    font-size: 12px; /* Adjust as needed */
+  }
+  .special-services-section-title {
+    font-size: 34px; 
+  }
+  .special-services-slide-title {
+    font-size: 18px !important;
+  }
+  .special-services-slide-item {
+    padding: 15px;
+  }
+  .special-services-description {
+    margin-bottom: 0px;
+  }
+  .special-services-section {
+    padding-bottom: 0px;
+
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .special-services-section-title {
+    font-size: 1.8rem;
+  }
+  .special-services-slide-title {
+    font-size: 0.9rem;
+  }
+}

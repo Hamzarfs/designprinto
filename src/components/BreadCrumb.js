@@ -6,8 +6,17 @@ const BreadcrumbSection = ({ heading, description, buttonText, buttonLink, backg
     const [showDescription, setShowDescription] = useState(true);
 
     useEffect(() => {
-        // Hide the button and description if the current path is '/contact-us' or '/terms-and-conditions'
-        if (window.location.pathname === '/contact-us' || window.location.pathname === '/terms-and-conditions' || window.location.pathname === '/privacy-policy' || window.location.pathname === '/about-us') {
+        // Define paths where the button and description should be hidden
+        const hiddenPaths = [
+            '/contact-us',
+            '/terms-and-conditions',
+            '/privacy-policy',
+            '/about-us',
+            '/services'
+        ];
+
+        // Check if the current path is in the hidden paths
+        if (hiddenPaths.includes(window.location.pathname)) {
             setShowButton(false);
             setShowDescription(false);
         } else {
@@ -18,34 +27,32 @@ const BreadcrumbSection = ({ heading, description, buttonText, buttonLink, backg
 
     return (
         <div
-        className="breadcrumb-section"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
-        <h1
-            className="breadcrumb-heading"
-            dangerouslySetInnerHTML={{
-                __html: heading,
-            }}
-        ></h1>
-    
-        {/* Conditionally render the description */}
-        {showDescription && (
-            <p
+            className="breadcrumb-section"
+            style={{ backgroundImage: `url(${backgroundImage})` }}
+        >
+            <h1
+                className="breadcrumb-heading"
                 dangerouslySetInnerHTML={{
-                    __html: description,
+                    __html: heading,
                 }}
-            ></p>
-        )}
-    
-        {/* Conditionally render the button */}
-        {showButton && (
-            <button data-bs-toggle="modal" data-bs-target="#popupForm" className="btn btn-primary">
-                {buttonText}
-            </button>
-        )}
-    </div>
-    
-    
+            ></h1>
+
+            {/* Conditionally render the description */}
+            {/* {showDescription && (
+                <p
+                    dangerouslySetInnerHTML={{
+                        __html: description,
+                    }}
+                ></p>
+            )} */}
+
+            {/* Conditionally render the button */}
+            {/* {showButton && (
+                <button data-bs-toggle="modal" data-bs-target="#popupForm" className="btn btn-primary">
+                    {buttonText}
+                </button>
+            )} */}
+        </div>
     );
 };
 

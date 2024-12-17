@@ -1,0 +1,72 @@
+.print-section {
+  padding: 40px 15px;
+}
+
+.title {
+  font-size: 55px;
+  font-weight: 700;
+  color: #333;
+}
+
+.highlight {
+  color: #DD1D8F;
+}
+
+.content-box {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.content-box h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.content-box p {
+  font-size: 14px;
+  color: #555;
+}
+
+.content-box .btn {
+  margin-top: 20px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 14px;
+  color: #555;
+}
+
+.meet-button {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color:#F2AF49;
+  border: none;
+  border-radius: 25px;
+}
+
+.meet-button:hover {
+  background-color:#F2AF49;
+}
