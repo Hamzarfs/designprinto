@@ -23,8 +23,8 @@ const About = () => {
         <HeaderSection/>
             <div>
                 <BreadcrumbSection
-                    heading="Turning visions into reality,<br/> one creative idea at a time!"
-                    description="Top-rated mobile app development company.Let's create a mobile app <br/>that your clients will enjoy and will move your business forward."
+                    heading="About Design Printo"
+                    description="Precision Printing, Creative Designs"
                     buttonText="Get Started"
                     backgroundImage={aboutusbc}
                 />

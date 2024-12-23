@@ -4,7 +4,7 @@
 }
 
 .custom-header {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(90deg, #1794d7, #DF2588, #F2AF26);
   color: white;
   padding: 20px;
   text-align: center;
@@ -19,12 +19,12 @@
 }
 
 .custom-input:focus {
-  border-color: #6a11cb;
+  border-color: #F2AF26;
   box-shadow: 0 0 8px rgba(106, 17, 203, 0.2);
 }
 
 .custom-button {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(90deg, #1794d7, #DF2588, #F2AF26);
   color: white;
   font-weight: bold;
   border: none;
@@ -34,6 +34,6 @@
 }
 
 .custom-button:hover {
-  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  background: linear-gradient(90deg, #1794d7, #DF2588, #F2AF26);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }

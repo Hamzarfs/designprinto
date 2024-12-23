@@ -4,9 +4,9 @@ import { Navigation } from "swiper/modules";
 import 'swiper/css';
 
 import '../SpecialServices.css';
-import Special1 from '../images/SpecialStunning.png'; 
-import Special2 from '../images/SpecialStunning1.png'; 
-import Special3 from '../images/SpecialStunning2.png'; 
+import Special1 from '../images/Promotional Products.png'; 
+import Special2 from '../images/Stationery Products.png'; 
+import Special3 from '../images/Large Formats.png'; 
 
 // Define slide data including image and title
 const slides = [
@@ -15,13 +15,10 @@ const slides = [
     title: 'Promotional Products',
   },
   {
-    img: Special1,
+    img: Special2,
     title: 'Stationery Products',
   },
-  {
-    img: Special2,
-    title: 'Large Format Products',
-  },
+ 
   {
     img: Special3,
     title: 'Large Format Products',
@@ -33,14 +30,14 @@ const SpecialServices = () => {
     <section className="special-services-section position-relative">
   <div className="container">
     <div className="text-center">
-    <h3 className="special-services-subheading">About Printing Services</h3> {/* Subheading */}
       <h2 className="special-services-section-title">
-      Special Stunning <span className="highlight-text">Services <br/>For Your </span>Business
-      </h2>
+      Our<span className="highlight-text"> Printing </span>Services </h2>
       
       <p className="special-services-description">
-      We have all the equipment, know-how and every thing you will need to receive fast, reliable printing<br/> 
-      services with high quality results. Chat live with us today to get things moving.
+      Simplify your printing needs with our online services. Upload your designs, select your options, 
+      and let us handle the rest. Our printing service includes:Booklets, Promotional Products, Merchandise, 
+      Brochures, Business Cards, Catalogs, Display Signage, Flyers, Manuals, Marketing Folders, Newsletters, 
+      Postcards, Posters and Banners, Presentations, Proposals, Book Cover 
       </p> {/* Description */}
     </div>
     <div className="mx-3">

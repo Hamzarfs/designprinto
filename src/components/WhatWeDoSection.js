@@ -23,34 +23,34 @@ function WhatWeDoSection() {
             What We Do
           </h6>
           <h2 className="section-heading-hy">
-            Create ready-for-<span style={{ color: '#DD1D8F' }}>print designs </span> 
-            with hundreds of free assets
+          Our <span style={{ color: '#DD1D8F' }}>Story </span> 
           </h2>
           <p className="unique-section-description mb-4">
-            The easiest way to create professional designs for free! Choose
-            from our ever-changing library of free mockups, designs, videos, and
-            logos.
+          Design Printo's mission is to provide unrivaled quality design and print services. 
+          The journey started long ago in a humble workshop with a single object in mind: 
+          designing beauty, functionality, and impact for its users. Over the years, we've 
+          expanded, developed, and changed, but we kept intact values at our core.
           </p>
           <ul className="unique-list list-unstyled">
             <li className="unique-list-item mb-2">
               <i className="bi bi-check-circle-fill unique-icon"></i>
-              Professional & Experienced
+              Innovation 
+              </li>
+            <li className="unique-list-item mb-2">
+              <i className="bi bi-check-circle-fill unique-icon"></i>
+              Quality 
             </li>
             <li className="unique-list-item mb-2">
               <i className="bi bi-check-circle-fill unique-icon"></i>
-              Low cost & digital printing agency
+              Customer Satisfaction 
             </li>
             <li className="unique-list-item mb-2">
               <i className="bi bi-check-circle-fill unique-icon"></i>
-              Pixel perfect and accurate printing
-            </li>
-            <li className="unique-list-item mb-2">
-              <i className="bi bi-check-circle-fill unique-icon"></i>
-              Transport & low transportation cost
+              Adaptability
             </li>
             <li className="unique-list-item">
               <i className="bi bi-check-circle-fill unique-icon"></i>
-              Exclusive team members
+              Environmental Responsibility
             </li>
           </ul>
         </div>

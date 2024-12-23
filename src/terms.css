@@ -1,0 +1,24 @@
+/* Default font size and text alignment for larger screens */
+.terms-container p {
+  font-size: 16px;
+  text-align: justify; /* Justified text for larger screens */
+
+}
+.terms-container h3, .terms-container h4 {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: justify; /* Justified text for larger screens */
+}
+
+/* Adjust font size and text alignment for mobile screens */
+@media (max-width: 767px) {
+  .terms-container p {
+    font-size: 14px;
+    text-align: justify; /* Justified text for larger screens */
+
+  }
+  .terms-container h3, .terms-container h4 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

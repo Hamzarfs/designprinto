@@ -20,25 +20,24 @@ const CreativeMindsComponent = () => {
         <Row className="creative-minds-row text-center">
           <Col md={3} className="creative-minds-col ">
             <img src={Group441} alt="Product Design" className="creative-minds-icon img-fluid" />
-            <h5 className="creative-minds-title mt-3">Convey Your Idea</h5>
-            <p className="creative-minds-description">Connect your store to Printes, add your products, & set your own retail prices</p>
+            <h5 className="creative-minds-title mt-3">Expert Design Team</h5>
+            <p className="creative-minds-description"> The creative resources and technical expertise that the team of experienced designers brings to each project are extensive.</p>
           </Col>
           <Col md={3} className="creative-minds-col">
             <img src={Group442} alt="Digital Services" className="creative-minds-icon img-fluid" />
-            <h5 className="creative-minds-title mt-3">Printing Process</h5>
-            <p className="creative-minds-description">Connect your store to Printes, add your products, & set your own retail prices</p>
+            <h5 className="creative-minds-title mt-3">Advanced Technology</h5>
+            <p className="creative-minds-description">The adoption of modern technology enables efficient and high-quality production.</p>
           </Col>
           <Col md={3} className="creative-minds-col">
             <img src={Group443} alt="Innovative Thinking" className="creative-minds-icon img-fluid" />
-            <h5 className="creative-minds-title mt-3">Printes Fulfills order</h5>
-            <p className="creative-minds-description">Connect your store to Printes, add your products, & set your own retail prices</p>
+            <h5 className="creative-minds-title mt-3">Competitive Pricing</h5>
+            <p className="creative-minds-description">Our pricing is competitive but certainly without affecting the quality.</p>
           </Col>
           <Col md={3} className="creative-minds-col">
             <img src={Group444} alt="Innovative Thinking" className="creative-minds-icon img-fluid" />
-            <h5 className="creative-minds-title mt-3">Print Ready Designs</h5>
-            <p className="creative-minds-description">Connect your store to Printes, add your products, & set your own retail prices</p>
+            <h5 className="creative-minds-title mt-3">On-time Delivery</h5>
+            <p className="creative-minds-description">The deadlines have been kept most important; your projects are delivered promptly each time.</p>
           </Col>
-          
         </Row>
       </Container>
     </section>

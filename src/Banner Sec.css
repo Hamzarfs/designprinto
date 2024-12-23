@@ -60,7 +60,7 @@
 
 @media (max-width: 768px) {
   .banner-content h1 {
-    font-size: 34px;
+    font-size: 30px;
 }
 .banner-section {
   align-items: center; /* Vertically centers content */
@@ -71,9 +71,8 @@
   margin-top: 30px;
 }
 .how-it-works {
-  
   background-position: center;
-  padding-top: 121px;
+  padding-top: 138px;
   padding-bottom: 40px;
   min-height: 0%;
 }

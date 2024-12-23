@@ -44,10 +44,10 @@ const UniquePrintingSection = () => {
           {/* Right Side: Services */}
           <Col lg={5} md={12}>
             {[
-              { title: 'Printing Services', description: 'We offer high-quality printing for all your needs, including posters, flyers, and more.' },
-              { title: 'Banner Design & Printing', description: 'Custom banner designs and fast printing services to make your events stand out.' },
-              { title: 'Book Cover Printing', description: 'Get beautifully designed and printed book covers tailored to your project.' },
-              { title: 'Design Services', description: 'Professional design services for logos, business cards, and marketing materials.' },
+              { title: 'Printing Services', description: 'Need some quality print products? We\'ve got a lot of things to offer-from business cards to banners; we provide a full range of printing services tailored to your needs. With our cutting-edge equipment and a team of highly knowledgeable individuals, rest assured that all our work will be excellent.' },
+              { title: 'Banner Design & Printing', description: 'Let us print a banner that will impress you using our banner design and printing service. Whether you need a banner for a trade show, grand opening, or special event, we can create a stunning design and print it on high-quality materials.' },
+              { title: 'Book Cover Printing', description: 'Every book should have a cover as attractive as its contents. Our book-cover printing ranges from soft covers to hardcovers, allowing your book to be displayed beautifully on the shelf. ' },
+              { title: 'Design Services', description: 'Need assistance in materializing your ideas? Our super creative design team can help you craft beautiful visuals to represent your brand, be it logo design, brochure design, website design, or beyond.' },
             ].map((item, index) => (
               <Card key={index} className="custom-card mb-3 shadow-sm">
                 <Card.Body>

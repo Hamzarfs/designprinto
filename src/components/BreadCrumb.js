@@ -6,24 +6,27 @@ const BreadcrumbSection = ({ heading, description, buttonText, buttonLink, backg
     const [showDescription, setShowDescription] = useState(true);
 
     useEffect(() => {
-        // Define paths where the button and description should be hidden
-        const hiddenPaths = [
+        // Define paths where the button should be hidden
+        const buttonHiddenPaths = [
+            '/about-us', // Hide button on About Us
             '/contact-us',
             '/terms-and-conditions',
             '/privacy-policy',
-            '/about-us',
             '/services'
         ];
 
-        // Check if the current path is in the hidden paths
-        if (hiddenPaths.includes(window.location.pathname)) {
+        // Check current path
+        const currentPath = window.location.pathname;
+
+        if (buttonHiddenPaths.includes(currentPath)) {
             setShowButton(false);
-            setShowDescription(false);
         } else {
             setShowButton(true);
-            setShowDescription(true);
         }
-    }, []);  // Empty array means this effect runs only once, on component mount
+
+        // Always show description
+        setShowDescription(true);
+    }, []); // Empty array means this effect runs only once, on component mount
 
     return (
         <div
@@ -37,21 +40,21 @@ const BreadcrumbSection = ({ heading, description, buttonText, buttonLink, backg
                 }}
             ></h1>
 
-            {/* Conditionally render the description */}
-            {/* {showDescription && (
+            {/* Always render the description */}
+            {showDescription && (
                 <p
                     dangerouslySetInnerHTML={{
                         __html: description,
                     }}
                 ></p>
-            )} */}
+            )}
 
             {/* Conditionally render the button */}
-            {/* {showButton && (
+            {showButton && (
                 <button data-bs-toggle="modal" data-bs-target="#popupForm" className="btn btn-primary">
                     {buttonText}
                 </button>
-            )} */}
+            )}
         </div>
     );
 };

@@ -1,0 +1,24 @@
+/* Default font size and text alignment for larger screens */
+.info-collection-container p {
+  font-size: 16px;
+  text-align: justify; /* Justified text for larger screens */
+}
+
+.info-collection-container h3, .info-collection-container h4 {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: justify; /* Justified text for larger screens */
+}
+
+/* Adjust font size and text alignment for mobile screens */
+@media (max-width: 767px) {
+  .info-collection-container p {
+    font-size: 14px;
+    text-align: justify; /* Justified text for larger screens */
+  }
+
+  .info-collection-container h3, .info-collection-container h4 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

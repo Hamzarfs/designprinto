@@ -10,15 +10,14 @@ const LeftImageSection = () => {
         <div className="row align-items-center">
           {/* Left side: Image */}
           <div className="col-md-6">
-          <h4 className="left-section-subtitle">Expert Solutions for Your Brand</h4>
+          {/* <h4 className="left-section-subtitle">Expert Solutions for Your Brand</h4> */}
             <h2 className="left-section-heading">
-              Your Trusted <span style={{ color: '#DD1D8F' }}>Partner for Online</span> Printing Services
+            Our Vision<span style={{ color: '#DD1D8F' }}> for the Future</span> 
             </h2>
             <p className="left-section-description">
-              We base our business on quality and customer satisfaction. Simplifying online printing services 
-              allows you to concentrate on growing your business. Our range of products, design templates, and
-              resource materials makes it easy for you to create beautiful marketing materials. Youngblood 
-              experience meets passion experience, all at Design Printo.
+            We foresee Design Printo being the foremost innovative designer and printing provider. 
+            We evolve and reinvent continuously by embracing new and forthcoming technologies to 
+            create an outstanding value proposition for our clients.
             </p>
             <button data-bs-toggle='modal' data-bs-target='#popupForm' className="btn-3d-glow-button">Start Your Project</button>
           </div>

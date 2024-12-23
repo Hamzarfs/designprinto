@@ -13,14 +13,14 @@ const UniqueCustomSection = () => {
                     </div>
                     <div className="unique-col-md-6 content-wrapper">
                         <h4 className="left-section-subtitle">
-                            Expert Solutions for Your Brand
+                            CUSTOM PRINTING
                         </h4>
                         <h2 className="unique-content-heading-v2">
-                            4 reasons to get<span style={{ color: '#DD1D8F' }}> printing<br/>started</span> with us
+                        Why Choose <span style={{ color: '#DD1D8F' }}><br/>Design Printo?</span> 
                         </h2>
                         <p className="unique-content-desc">
-                            We have all the equipment, know-how and everything you will need to receive fast,<br/>
-                            reliable printing services with high-quality results. Chat live with us today to get things<br/> moving.
+                        Design Printo brings expert design and wonderfully advanced and personalized services to<br/>
+                        deliver highly customized, high-quality, cost-effective, and time-saving printing solutions.
                         </p>
                     </div>
                 </div>

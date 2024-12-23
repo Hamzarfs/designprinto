@@ -7,6 +7,9 @@ import Contact from './pages/ContactUs';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-icons/font/bootstrap-icons.css"; // Bootstrap Icons
 import "bootstrap/dist/js/bootstrap.bundle.js"
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsAndConditions from './pages/TermsAndConditions';
+
 
 const App = () => {
     return (
@@ -16,8 +19,8 @@ const App = () => {
                 <Route path="/about-us" element={<About />} />
                 <Route path="/services" element={<Services />} />
                 <Route path="/contact-us" element={<Contact />} />
-
-
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                <Route path="/terms-and-conditions" element={<TermsAndConditions />}/>
             </Routes>
         </Router>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import HeaderSection from '../components/Header';
 import BreadcrumbSection from '../components/BreadCrumb';
-import aboutusbc from '../images/aboutus.png';
+import contactbc from '../images/contact.png';
 import CtaSec from '../components/CtaSection';
 import ContactUsSec from '../components/contactform';
 import Footer from '../components/footer';
@@ -17,10 +17,9 @@ const Home = () => {
         <HeaderSection/>
         <div>
         <BreadcrumbSection
-            heading=" We're Here to<br/>Make Things Happen!"
-            description="Top-rated mobile app development company.Let's create a mobile app <br/>that your clients will enjoy and will move your business forward."
+            heading=" Get in touch and let us <br/>know how we can help."
             buttonText="Get Started"
-            backgroundImage={aboutusbc}
+            backgroundImage={contactbc}
         />
         </div>
         <ContactUsSec/>

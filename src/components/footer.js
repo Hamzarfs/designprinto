@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           {/* Logo and Description */}
-          <div className="col-md-4">
+          <div className="col-md-5">
             <div className="d-flex align-items-center mb-3">
               <img
                 src={footerlogo} // Replace with your logo URL
@@ -19,11 +19,12 @@ const Footer = () => {
                 className="me-2"
               />
             </div>
-            <p>
+            <p style={{ paddingRight: '50px' }}>
             Your trusted partner for high-quality printing solutions. From business cards to banners, 
             we deliver exceptional results. Experience the convenience of our online printing services
             and let us bring your vision to life.
             </p>
+
             <div className="social-icons d-flex gap-3">
               <a href="#" className="text-dark">
               <i className="bi bi-facebook"></i>
@@ -36,62 +37,40 @@ const Footer = () => {
               </a>
             </div>
           </div>
-
-          {/* Contact Info */}
-          <div className="col-md-2">
-            <h5>Get In Touch</h5>
-            <ul className="list-unstyled">
-              <li>2972 Westheimer Rd.</li>
-              <li>Santa Ana, 85486</li>
-              <li>support@example.com</li>
-              <li>+ (406) 555-0120</li>
-            </ul>
-          </div>
-
           {/* Information */}
-          <div className="col-md-2">
-            <h5>Information</h5>
-            <ul className="list-unstyled">
-              <li>Printing Services</li>
-              <li>Designing Services</li>
-            </ul>
-          </div>
+          <div className="col-md-3">
+                <h5>Information</h5>
+                <ul className="list-unstyled">
+                  <li><a href="/" className="text-decoration-none">Home</a></li>
+                  <li><a href="/services" className="text-decoration-none">Services</a></li>
+                  <li><a href="/about-us" className="text-decoration-none">About Us</a></li>
+                  <li><a href="/contact-us" className="text-decoration-none">Contact Us</a></li>
+                </ul>
+              </div>
 
-          {/* Useful Links */}
-          <div className="col-md-2">
-            <h5>Useful Links</h5>
-            <ul className="list-unstyled">
-              <li>My Account</li>
-              <li>Tracking</li>
-              <li>All Products</li>
-              <li>All Services</li>
-            </ul>
-          </div>
+              {/* Contact Info */}
+              <div className="col-md-4">
+                <h5>Get In Touch</h5>
+                <ul className="list-unstyled">
+                  <li><a href="https://www.google.com/maps?q=43+3rd+Avenue+2nd+Floor,+Edison,+NJ+08837" className="text-decoration-none">43 3rd Ave 2nd Floor, Edison, NJ 08837</a></li>
+                  <li><a href="mailto:support@designprinto.com" className="text-decoration-none">support@designprinto.com</a></li>
+                  <li><a href="tel:+15515543283" className="text-decoration-none">+1 (551) 554-3283</a></li>
+                </ul>
+              </div>
+            </div>
 
-          {/* About Us */}
-          <div className="col-md-2">
-            <h5>About Us</h5>
-            <ul className="list-unstyled">
-              <li>Our Mission</li>
-              <li>Our Vision</li>
-              <li>Affiliates</li>
-              <li>Referral</li>
-            </ul>
+            {/* Footer Bottom */}
+            <div className="row mt-4 footer-bottom">
+              <div className="col-md-6">
+                <p className="mb-0">&copy; Copyright 2024, <strong>DesignPrintO</strong>. Powered by <strong>RFS</strong>.</p>
+              </div>
+              <div className="col-md-6 text-md-end">
+                <a href="/terms-and-conditions" className="text-decoration-none me-2">Terms & Conditions</a>|
+                <a href="/privacy-policy" className="text-decoration-none ms-2">Privacy Policy</a>
+              </div>
+            </div>
           </div>
-        </div>
-
-        {/* Footer Bottom */}
-        <div className="row mt-4 footer-bottom">
-          <div className="col-md-6">
-            <p className="mb-0">&copy; Copyright 2024, <strong>DesignPrintO</strong>. Powered by <strong>RFS</strong>.</p>
-          </div>
-          <div className="col-md-6 text-md-end">
-            <a href="#" className="me-3">Terms & conditions</a>
-            <a href="#">Privacy Policy</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+        </footer>
   );
 };
 

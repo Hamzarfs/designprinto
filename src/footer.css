@@ -10,6 +10,7 @@
   padding: 3rem 0;
   margin: 0 auto; /* Centers the footer container horizontally */
   align-items: center; /* Centers text and inline elements */
+  text-align: justify;
 }
 
 .custom-footer h5 {

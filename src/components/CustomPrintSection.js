@@ -2,11 +2,18 @@ import React from 'react';
 import Slider from 'react-slick';
 import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
 import "../Customprnt.css"; // For custom styles
-import Mask1 from '../images/Mask group.png';
-import Mask2 from '../images/Mask group-1.png';
-import Mask3 from '../images/Mask group-2.png';
-import Mask4 from '../images/Mask group-7.png';
-
+import LargeFormats1 from '../images/Large Formats/Book Covers.png';
+import LargeFormats2 from '../images/Large Formats/Catalogs.png';
+import LargeFormats3 from '../images/Large Formats/Display Signage.png';
+import LargeFormats4 from '../images/Large Formats/Merchandise.png';
+import Promotional1 from '../images/Promotional Products/Brochures.png';
+import Promotional2 from '../images/Promotional Products/Flyers.png';
+import Promotional3 from '../images/Promotional Products/Postcards.png';
+import Promotional4 from '../images/Promotional Products/Posters and Banners.png';
+import Stationery1 from '../images/Stationery Products/Booklets.png';
+import Stationery2 from '../images/Stationery Products/Business Cards.png';
+import Stationery3 from '../images/Stationery Products/Manuals.png';
+import Stationery4 from '../images/Stationery Products/Marketing Folders.png';
 
 
 const CustomPrintSection = () => {
@@ -58,19 +65,19 @@ const CustomPrintSection = () => {
                 <Tab.Pane eventKey="first" className="custom-tab-pane-unique">
                   <Slider {...settings} className="custom-slider-unique">
                     <div className="custom-slide-unique">
-                      <img src={Mask1} alt="Booklets" className="img-fluid custom-image-unique" />
+                      <img src={Promotional1} alt="Booklets" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Brochures</p> {/* Title for the image */}
                     </div>
                     <div className="custom-slide-unique">
-                      <img src={Mask4} alt="Flyers" className="img-fluid custom-image-unique" />
+                      <img src={Promotional2} alt="Flyers" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Flyers</p> {/* Title for the image */}
                     </div>
                     <div className="custom-slide-unique">
-                      <img src={Mask1} alt="Catalogs" className="img-fluid custom-image-unique" />
+                      <img src={Promotional3} alt="Catalogs" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Postcards</p> {/* Title for the image */}
                     </div>
                     <div className="custom-slide-unique">
-                      <img src={Mask1} alt="Stationary" className="img-fluid custom-image-unique" />
+                      <img src={Promotional4} alt="Stationary" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Posters and Banners</p> {/* Title for the image */}
                     </div>
                   </Slider>
@@ -78,19 +85,19 @@ const CustomPrintSection = () => {
                 <Tab.Pane eventKey="second" className="custom-tab-pane-unique">
                   <Slider {...settings} className="custom-slider-unique">
                     <div className="custom-slide-unique">
-                      <img src={Mask2} alt="Stationary" className="img-fluid custom-image-unique" />
+                      <img src={Stationery2} alt="Stationary" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Business Cards</p> {/* Title for the image */}
                     </div>
                     <div className="custom-slide-unique">
-                      <img src={Mask2} alt="Flyers" className="img-fluid custom-image-unique" />
+                      <img src={Stationery4} alt="Flyers" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Marketing Folders</p> {/* Title for the image */}
                     </div>
                     <div className="custom-slide-unique">
-                      <img src={Mask2} alt="Catalogs" className="img-fluid custom-image-unique" />
+                      <img src={Stationery1} alt="Catalogs" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Booklets</p> {/* Title for the image */}
                     </div>
                     <div className="custom-slide-unique">
-                      <img src={Mask2} alt="Booklets" className="img-fluid custom-image-unique" />
+                      <img src={Stationery3} alt="Booklets" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Manuals</p> {/* Title for the image */}
                     </div>
                   </Slider>
@@ -98,19 +105,19 @@ const CustomPrintSection = () => {
                 <Tab.Pane eventKey="third" className="custom-tab-pane-unique">
                   <Slider {...settings} className="custom-slider-unique">
                     <div className="custom-slide-unique">
-                      <img src={Mask3} alt="Flyers" className="img-fluid custom-image-unique" />
+                      <img src={LargeFormats2} alt="Flyers" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Catalogs</p> {/* Title for the image */}
                     </div>
                     <div className="custom-slide-unique">
-                      <img src={Mask2} alt="Catalogs" className="img-fluid custom-image-unique" />
+                      <img src={LargeFormats4} alt="Catalogs" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Merchandise</p> {/* Title for the image */}
                     </div>
                     <div className="custom-slide-unique">
-                      <img src={Mask1} alt="Booklets" className="img-fluid custom-image-unique" />
+                      <img src={LargeFormats1} alt="Booklets" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Book Covers</p> {/* Title for the image */}
                     </div>
                     <div className="custom-slide-unique">
-                      <img src={Mask3} alt="Stationary" className="img-fluid custom-image-unique" />
+                      <img src={LargeFormats3} alt="Stationary" className="img-fluid custom-image-unique" />
                       <p className="custom-image-title">Display Signage</p> {/* Title for the image */}
                     </div>
                   </Slider>
