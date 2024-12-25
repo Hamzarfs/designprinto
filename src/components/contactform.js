@@ -99,9 +99,9 @@ const ContactUsform = () => {
                                 </a>
                                 {/* Social Icons */}
                                 <div className="contactuspg-social-icons d-flex">
-                                <a href= "https://www.facebook.com/TheAppDesign/" className="contactuspg-icon"><FaFacebookF /></a>
-                                <a href= "https://www.instagram.com/theappdesign_/" className="contactuspg-icon"><FaInstagram /></a>
-                                <a href="https://www.linkedin.com/company/the-app-design/" className="contactuspg-icon"><FaLinkedin /></a>
+                                <a href= "https://www.facebook.com/DesignprintoUSA/" className="contactuspg-icon"><FaFacebookF /></a>
+                                <a href= "https://www.instagram.com/design_print_o/" className="contactuspg-icon"><FaInstagram /></a>
+                                <a href="https://www.linkedin.com/company/design-printo/" className="contactuspg-icon"><FaLinkedin /></a>
 
                                 </div>
                             </div>

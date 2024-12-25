@@ -36,7 +36,7 @@
 
 .custom-footer a:hover {
   text-decoration: underline;
-  color: #007bff; /* Bootstrap primary color for hover */
+  color: #427AC7; /* Bootstrap primary color for hover */
 }
 
 .custom-footer .social-icons {
@@ -52,7 +52,7 @@
 }
 
 .custom-footer .social-icons a:hover {
-  color: #007bff; /* Change icon color on hover */
+  color: #000; /* Change icon color on hover */
 }
 
 /* Footer Bottom Section */
@@ -72,7 +72,7 @@
 }
 
 .custom-footer .footer-bottom a:hover {
-  color: #007bff;
+  color:  linear-gradient(90deg, #1794d7, #DF2588, #F2AF26);
 }
 
 @media (max-width: 992px) {
