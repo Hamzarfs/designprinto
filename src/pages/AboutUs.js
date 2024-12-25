@@ -25,7 +25,7 @@ const About = () => {
             <Helmet>
                 <title>About Us | Design Printo</title>
                 <meta name="description" content="Learn about our journey in delivering design and printing assistance. Discover our commitment to quality, creativity, and customer satisfaction" />
-                <link rel="canonical" href="http://designprinto.com/about-us" />
+                <link rel="canonical" href="https://designprinto.com/about-us" />
                 
             </Helmet>
             <div>

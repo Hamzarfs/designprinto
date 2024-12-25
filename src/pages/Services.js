@@ -22,7 +22,7 @@ const Home = () => {
         <Helmet>
             <title>Service | Design Printo</title>
             <meta name="description" content="DesignPrinto offers online printing services for marketing materials, business cards, and promotional products. Create & order with ease today!" />
-            <link rel="canonical" href="http://designprinto.com/services" />
+            <link rel="canonical" href="https://designprinto.com/services" />
             
         </Helmet>
         <div>
