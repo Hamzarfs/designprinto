@@ -8,6 +8,7 @@ import ContactUsSec from '../components/contactform';
 import Footer from '../components/footer';
 import PopupForm1 from '../components/PopupForm';
 
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -15,6 +16,12 @@ const Home = () => {
     return (
         <>
         <HeaderSection/>
+        <Helmet>
+            <title>Contact Us | Get in Touch for Design & Printing Solutions</title>
+            <meta name="description" content="Have questions or need help with design and printing services? Contact us today for expert support, solutions, and personalized assistance." />
+            <link rel="canonical" href="http://designprinto.com/contact-us" />
+            
+        </Helmet>
         <div>
         <BreadcrumbSection
             heading=" Get in touch and let us <br/>know how we can help."

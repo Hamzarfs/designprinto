@@ -35,7 +35,7 @@ const PopupForm1 = () => {
     setLoading(true);
 
     await fetch(
-      /*'http://localhost:9090/popup-email.php'*/ "https://theappdesign.com/php_mailer/popup.php",
+      "https://designprinto.com/php_mailer/popup.php",
       {
         method: "POST",
         body: JSON.stringify(formData),

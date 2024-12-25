@@ -12,12 +12,19 @@ import CtaSec from '../components/CtaSection';
 import CustomPrintSection from '../components/CustomPrintSection';
 import Footer from '../components/footer';
 import PopupForm1 from '../components/PopupForm';
+import { Helmet } from 'react-helmet-async';
 
 
 const Home = () => {
     return (
         <>
         <HeaderSection/>
+        <Helmet>
+          <title>Design And Printing Services - On-Demand Printing</title>
+          <meta name="description" content="DesignPrinto offers online printing services for marketing materials, business cards, and promotional products. Create & order with ease today!" />
+          <link rel="canonical" href="http://designprinto.com" />
+         
+        </Helmet>
         <BannerSec/>
         <StatsSec />
         <RightImgSec />
