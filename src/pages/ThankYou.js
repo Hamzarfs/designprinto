@@ -1,7 +1,7 @@
 import HeaderSection from '../components/Header';
 import Footer from '../components/footer';
 // import ThankYouSection from "../components/ThankYouSection";
-import aboutusbc from '../images/aboutus.png';
+import aboutusbc from '../images/blogs.png';
 import BreadcrumbSection from '../components/BreadCrumb';
 import { Helmet } from 'react-helmet-async';
 

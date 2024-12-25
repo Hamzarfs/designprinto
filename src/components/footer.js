@@ -1,6 +1,7 @@
 import React from 'react';
 import '../footer.css'; // Import the updated CSS
 import 'bootstrap-icons/font/bootstrap-icons.css';  // Bootstrap Icons
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 import footerlogo from '../images/Design Printo-Logo Black2-02.svg';
 
@@ -26,15 +27,10 @@ const Footer = () => {
             </p>
 
             <div className="social-icons d-flex gap-3">
-              <a href="#" className="text-dark">
-              <i className="bi bi-facebook"></i>
-              </a>
-              <a href="#" className="text-dark">
-                <i className="bi bi-instagram"></i>
-              </a>
-              <a href="#" className="text-dark">
-                <i className="bi bi-linkedin"></i>
-              </a>
+               <a href= "https://www.facebook.com/DesignprintoUSA/" className="contactuspg-icon"><FaFacebookF /></a>
+              <a href= "https://www.instagram.com/design_print_o/" className="contactuspg-icon"><FaInstagram /></a>
+               <a href="https://www.linkedin.com/company/design-printo/" className="contactuspg-icon"><FaLinkedin /></a>
+              
             </div>
           </div>
           {/* Information */}
