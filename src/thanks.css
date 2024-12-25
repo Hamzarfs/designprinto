@@ -1,0 +1,34 @@
+.thank-you-section {
+  background: linear-gradient(135deg, #eceff1, #cfd8dc);
+  padding: 20px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you-heading {
+  font-family: 'Poppins', sans-serif;
+  color: #010935;
+  font-weight: 700 !important;
+  margin-bottom: 10px;
+}
+
+.thank-you-subtext {
+  font-family: 'Poppins', sans-serif;
+  color: #546e7a;
+  font-size: 18px;
+}
+
+.return-home-btn {
+  font-family: 'Poppins', sans-serif;
+  background-color: #010935;
+  border-color: #010935;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.return-home-btn:hover {
+  background-color: #1c54b2;
+  border-color: #1c54b2;
+}

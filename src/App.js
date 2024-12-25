@@ -10,6 +10,8 @@ import "bootstrap/dist/js/bootstrap.bundle.js"
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsAndConditions from './pages/TermsAndConditions';
 import { HelmetProvider } from 'react-helmet-async';
+import ThankYou from './pages/ThankYou';
+
 
 
 const App = () => {
@@ -22,6 +24,7 @@ const App = () => {
                     <Route path="/services" element={<Services />} />
                     <Route path="/contact-us" element={<Contact />} />
                     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                    <Route path="/thank-you" element={<ThankYou />} />
                     <Route path="/terms-and-conditions" element={<TermsAndConditions />}/>
                 </Routes>
             </Router>

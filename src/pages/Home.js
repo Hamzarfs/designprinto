@@ -35,7 +35,6 @@ const Home = () => {
         <ClientReviews/>
         <CtaSec/>
         <Footer/>
-
         <PopupForm1/>
 
 
