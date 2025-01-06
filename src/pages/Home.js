@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HeaderSection from '../components/Header';
+import { Helmet } from 'react-helmet-async';
 import BannerSec from '../components/BannerSection';
 import StatsSec from '../components/StatsSection';
 import RightImgSec from '../components/RightImgSection';
@@ -18,6 +19,13 @@ const Home = () => {
     return (
         <>
         <HeaderSection/>
+
+        <Helmet>
+          <title>Design And Printing Services - On-Demand Printing</title>
+          <meta name="description" content="DesignPrinto offers online printing services for marketing materials, business cards, and promotional products. Create & order with ease today!" />
+          <link rel="canonical" href="https://designprinto.com/" />
+        </Helmet>
+
         <BannerSec/>
         <StatsSec />
         <RightImgSec />

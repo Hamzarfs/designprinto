@@ -16,7 +16,7 @@ const Footer = () => {
               <img
                 src={footerlogo} // Replace with your logo URL
                 alt="Logo"
-                style={{ width: '50%', height: 'auto' }}
+                style={{ width: '30%', height: 'auto' }}
                 className="me-2"
               />
             </div>

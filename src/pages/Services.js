@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HeaderSection from '../components/Header';
+import { Helmet } from 'react-helmet-async';
+
 import BreadcrumbSection from '../components/BreadCrumb';
 import Servicesbc from '../images/Services.png';
 import CtaSec from '../components/CtaSection';
@@ -18,6 +20,11 @@ const Home = () => {
     return (
         <>
         <HeaderSection/>
+        <Helmet>
+            <title>DesignPrinto: Explore Custom Printed Products</title>
+            <meta name="description" content="Browse custom-printed products like business cards, flyers, and more. Enjoy high-quality design and printing solutions tailored to your needs!" />
+             <link rel="canonical" href="https://designprinto.com/services" />
+        </Helmet>
         <div>
         <BreadcrumbSection
             heading="Our Services"

@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import Home from './pages/Home';
 import About from './pages/AboutUs';
 import Services from './pages/Services';
@@ -15,6 +16,7 @@ import ThankYou from './pages/ThankYou';
 
 const App = () => {
     return (
+        <HelmetProvider>
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -26,6 +28,8 @@ const App = () => {
                 <Route path="/terms-and-conditions" element={<TermsAndConditions />}/>
             </Routes>
         </Router>
+        </HelmetProvider>    
+
     );
 };
 
