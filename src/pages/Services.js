@@ -21,7 +21,7 @@ const Home = () => {
         <HeaderSection/>
         <Helmet>
             <title>Service | Design Printo</title>
-            <meta name="description" content="DesignPrinto offers online printing services for marketing materials, business cards, and promotional products. Create & order with ease today!" />
+            <meta name="description" content="Browse custom-printed products like business cards, flyers, and more. Enjoy high-quality design and printing solutions tailored to your needs!" />
             <link rel="canonical" href="https://designprinto.com/services" />
             
         </Helmet>
