@@ -19,13 +19,11 @@ const Home = () => {
     return (
         <>
         <HeaderSection/>
-
         <Helmet>
           <title>Design And Printing Services - On-Demand Printing</title>
           <meta name="description" content="DesignPrinto offers online printing services for marketing materials, business cards, and promotional products. Create & order with ease today!" />
           <link rel="canonical" href="https://designprinto.com/" />
         </Helmet>
-
         <BannerSec/>
         <StatsSec />
         <RightImgSec />
@@ -37,11 +35,7 @@ const Home = () => {
         <CtaSec/>
         <Footer/>
         <PopupForm1/>
-
-
-
         </>
     );
 };
-
 export default Home;
