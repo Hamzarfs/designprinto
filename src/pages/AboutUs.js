@@ -12,6 +12,7 @@ import WhatWeDoSec from '../components/WhatWeDoSection';
 import LeftImageSec from '../components/LeftImgSection';
 import UniqueCustomSec from '../components/UniqueCustomSection';
 import CreativeMindsSec from '../components/CreativeMinds';
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -21,13 +22,12 @@ const About = () => {
     return (
         <>
         <HeaderSection/>
-
-         <Helmet>
-                  <title>About Us | Design Printo</title>
-                  <meta name="description" content="Learn about our journey in delivering design and printing assistance. Discover our commitment to quality, creativity, and customer satisfaction" />
-                  <link rel="canonical" href="https://designprinto.com/about-us" />
-        </Helmet>
-
+            <Helmet>
+                <title>About Us | Design Printo</title>
+                <meta name="description" content="Learn about our journey in delivering design and printing assistance. Discover our commitment to quality, creativity, and customer satisfaction" />
+                <link rel="canonical" href="https://designprinto.com/about-us" />
+                
+            </Helmet>
             <div>
                 <BreadcrumbSection
                     heading="About Design Printo"

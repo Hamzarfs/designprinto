@@ -43,7 +43,7 @@ const ContactUsform = () => {
         if (!validateEmailAndPhone())
             return
         setLoading(true)
-        await fetch("https://theappdesign.com/php_mailer/contact.php", {
+        await fetch("https://designprinto.com/php_mailer/contact.php", {
             method: 'POST',
             body: JSON.stringify(formData)
         })
