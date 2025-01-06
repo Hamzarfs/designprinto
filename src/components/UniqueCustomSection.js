@@ -18,10 +18,14 @@ const UniqueCustomSection = () => {
                         <h2 className="unique-content-heading-v2">
                         Why Choose <span style={{ color: '#DD1D8F' }}><br/>Design Printo?</span> 
                         </h2>
-                        <p className="unique-content-desc">
-                        Design Printo brings expert design and wonderfully advanced and personalized services to<br/>
-                        deliver highly customized, high-quality, cost-effective, and time-saving printing solutions.
-                        </p>
+                        <p
+                            className="unique-content-desc"
+                            style={{ maxWidth: "600px" }}
+                            >
+                            Design Printo brings expert design and wonderfully advanced and personalized services to
+                            deliver highly customized, high-quality, cost-effective, and time-saving printing solutions.
+                            </p>
+
                     </div>
                 </div>
             </div>

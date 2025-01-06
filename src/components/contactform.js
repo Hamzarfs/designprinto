@@ -94,8 +94,8 @@ const ContactUsform = () => {
                                 <a href="tel:+15515543283" className="contactuspg-link">
                                     <FaPhoneAlt /> +1 (551) 554-3283
                                 </a><br />
-                                <a href="mailto:support@designprinto.com" className="contactuspg-link">
-                                    <FaEnvelope /> support@designprinto.com
+                                <a href="mailto:info@designprinto.com" className="contactuspg-link">
+                                    <FaEnvelope /> info@designprinto.com
                                 </a>
                                 {/* Social Icons */}
                                 <div className="contactuspg-social-icons d-flex">

@@ -16,7 +16,7 @@ const BannerSection = () => {
             With captivating visuals and flawless printing, we provide outstanding 
             results that will make a memorable impact.
             </p>
-            <button data-bs-toggle="modal" data-bs-target="#popupForm" className="banner-button">Build Your Dream App</button>
+            <button data-bs-toggle="modal" data-bs-target="#popupForm" className="banner-button">Start Your Project</button>
           </div>
 
           {/* Right side image */}

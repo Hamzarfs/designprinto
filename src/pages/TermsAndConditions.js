@@ -13,14 +13,12 @@ import TermsOfSec from '../components/TermsOfUse';
 
 const Process = () => {
 
-
-
     return (
       <>
          <HeaderSection/>
             <div>
                 <BreadcrumbSection
-                    heading="PLEASE READ THESE TERMS<br/>AND CONDITIONS CAREFULLY."
+                    heading="PLEASE READ THESE TERMS<br/>AND CONDITIONS CAREFULLY"
                     backgroundImage={aboutusbc}
                 />
             </div>

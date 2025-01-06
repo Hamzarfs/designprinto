@@ -64,7 +64,7 @@ const PrintSection = () => {
             <div className="box text-center">
               <img src={Intuitive4} alt="icon4" width={80} height={80} />
               <h5>Intuitive design tools</h5>
-              <p>Get speed and consistency—our global in-house & partner facilities offer competitive shipping rates and consistent quality.</p>
+              <p>Design tools that require no designs will allow you to create designs that look rather professional. Use a drag-and-drop editor, different fonts, colors, and images to customize your designs easily. </p>
             </div>
             <div className="box mt-3 text-center">
               <img src={Intuitive5} alt="icon5" width={80} height={80} />

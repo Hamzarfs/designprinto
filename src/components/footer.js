@@ -49,7 +49,7 @@ const Footer = () => {
                 <h5>Get In Touch</h5>
                 <ul className="list-unstyled">
                   <li><a href="https://www.google.com/maps?q=43+3rd+Avenue+2nd+Floor,+Edison,+NJ+08837" className="text-decoration-none">43 3rd Ave 2nd Floor, Edison, NJ 08837</a></li>
-                  <li><a href="mailto:support@designprinto.com" className="text-decoration-none">support@designprinto.com</a></li>
+                  <li><a href="mailto:info@designprinto.com" className="text-decoration-none">info@designprinto.com</a></li>
                   <li><a href="tel:+15515543283" className="text-decoration-none">+1 (551) 554-3283</a></li>
                 </ul>
               </div>

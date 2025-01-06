@@ -17,7 +17,7 @@ const Home = () => {
         <HeaderSection/>
         <div>
         <BreadcrumbSection
-            heading=" Get in touch and let us <br/>know how we can help."
+            heading=" Get in touch and let us <br/>know how we can help"
             buttonText="Get Started"
             backgroundImage={contactbc}
         />
