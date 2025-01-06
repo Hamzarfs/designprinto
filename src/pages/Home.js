@@ -13,7 +13,6 @@ import CtaSec from '../components/CtaSection';
 import CustomPrintSection from '../components/CustomPrintSection';
 import Footer from '../components/footer';
 import PopupForm1 from '../components/PopupForm';
-import { Helmet } from 'react-helmet-async';
 
 
 const Home = () => {

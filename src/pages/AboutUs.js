@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import HeaderSection from '../components/Header';
 import BreadcrumbSection from '../components/BreadCrumb';
 import aboutusbc from '../images/aboutus.png';
-import { Helmet } from 'react-helmet-async';
 import ClientReviews from '../components/testimonial';
 import CtaSec from '../components/CtaSection';
 import Footer from '../components/footer';

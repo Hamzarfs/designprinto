@@ -10,7 +10,6 @@ import "bootstrap-icons/font/bootstrap-icons.css"; // Bootstrap Icons
 import "bootstrap/dist/js/bootstrap.bundle.js"
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsAndConditions from './pages/TermsAndConditions';
-import { HelmetProvider } from 'react-helmet-async';
 import ThankYou from './pages/ThankYou';
 
 
