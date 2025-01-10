@@ -2,6 +2,7 @@ import React from 'react';
 import '../footer.css'; // Import the updated CSS
 import 'bootstrap-icons/font/bootstrap-icons.css';  // Bootstrap Icons
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 import footerlogo from '../images/Design Printo-Logo Black2-02.svg';
 
@@ -13,12 +14,14 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-md-5">
             <div className="d-flex align-items-center mb-3">
+              <Link to="/">
               <img
                 src={footerlogo} // Replace with your logo URL
                 alt="Logo"
                 style={{ width: '30%', height: 'auto' }}
                 className="me-2"
-              />
+              /> 
+               </Link>
             </div>
             <p style={{ paddingRight: '50px' }}>
             Your trusted partner for high-quality printing solutions. From business cards to banners, 
