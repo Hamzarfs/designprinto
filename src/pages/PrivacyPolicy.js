@@ -15,7 +15,7 @@ const About = () => {
         <HeaderSection/>
                 <Helmet>
                   <title>Privacy Policy - Design Printo</title>
-                  <meta name="description" content="Welcome to Design Printo Terms, which contains Design Printo standard agreements, transaction documents, and other related documents." />
+                  <meta name="description" content="Design Printo is committed to protecting the personal data of the users of our services that are available through our Website." />
                   <link rel="canonical" href="https://designprinto.com/privacy-policy" />
                  
                 </Helmet>
