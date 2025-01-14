@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           {/* Logo and Description */}
-          <div className="col-md-5">
+          <div className="col-md-6">
             <div className="d-flex align-items-center mb-3">
               <Link to="/">
               <img
@@ -23,7 +23,7 @@ const Footer = () => {
               /> 
                </Link>
             </div>
-            <p style={{ paddingRight: '50px' }}>
+            <p style={{ paddingRight: '100px' }}>
             Your trusted partner for high-quality printing solutions. From business cards to banners, 
             we deliver exceptional results. Experience the convenience of our online printing services
             and let us bring your vision to life.
@@ -48,7 +48,7 @@ const Footer = () => {
               </div>
 
               {/* Contact Info */}
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <h5>Get In Touch</h5>
                 <ul className="list-unstyled">
                   <li><a href="https://www.google.com/maps?q=43+3rd+Avenue+2nd+Floor,+Edison,+NJ+08837" className="text-decoration-none">43 3rd Ave 2nd Floor, Edison, NJ 08837</a></li>
