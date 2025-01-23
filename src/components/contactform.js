@@ -89,7 +89,7 @@ const ContactUsform = () => {
                                 <h3>Contact Information</h3>
                                 <p>Say something to start a live chat</p>
                                 <address>
-                                    <FaMapMarkerAlt /> 43 3rd Ave 2nd Floor, Edison, NJ 08837<br />
+                                    <FaMapMarkerAlt /> 41 Winthrop Rd, Edison, NJ 08817<br />
                                 </address>
                                 <a href="tel:+15515543283" className="contactuspg-link">
                                     <FaPhoneAlt /> +1 (551) 554-3283
