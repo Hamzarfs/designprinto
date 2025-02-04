@@ -5,7 +5,7 @@ import { API_URL } from '../utils/api';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Footer from '../components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DOMPurify from 'dompurify'
 import parse from 'html-react-parser'

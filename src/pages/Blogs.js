@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { API_URL, BRAND } from '../utils/api';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Footer from '../components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DOMPurify from 'dompurify'
 import parse from 'html-react-parser'
@@ -78,18 +78,11 @@ const BlogsPage = () => {
     return (
         <div className="blogs-page">
             <Helmet>
-                <title>webdesignmania - Insights & Tips</title>
-                <meta name="description" content="Explore content creation tips for agencies, SEO best practices, and guides for freelance writers." />
-                <link rel="canonical" href="https://webdesignmania.com/blogs" />
+                <title>Design & Printing Insights | Tips, Trends, and Inspiration Blog</title>
+                <meta name="description" content="Discover our blog for the latest tips and trends on design and printing. Get inspired with ideas to enhance your projects and grow your business" />
+                <link rel="canonical" href="https://designprinto.com/blogs" data-react-helmet="true"/>
                 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:type" content="article" />
-                <meta property="og:title" content="Webdesignmania - Insights & Tips" />
-                <meta property="og:description" content="Explore content creation tips for agencies, SEO best practices, and guides for freelance writers." />
-                <meta property="og:url" content="https://webdesignmania.com/blogs" />
-                <meta property="og:site_name" content="Webdesignmania" />
-                <meta property="article:publisher" content="https://www.facebook.com/Webdesignmania/" />
-                <meta property="article:modified_time" content="2024-08-20T07:39:16+00:00" />
+              
             </Helmet>
 
           <Header/>
