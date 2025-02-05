@@ -6,8 +6,13 @@
     font-weight: 700;
     padding-left: 15px;
 }
-
-
+.blogs-page a.btn.btn-primary {
+    display: none;
+}
+.blog-container .col-md-12 img {
+    width: 100%;
+    height: auto;
+}
 h3.fw-semibold.text-uppercase.mt-3{ font-size: 28px;
     text-align: left;
     margin-bottom: 10px;
@@ -150,13 +155,23 @@ h3.fw-semibold.text-uppercase.mt-3{ font-size: 28px;
     vertical-align: baseline;
     border-radius: 0.25rem;
   }
-  
+  .blog-section img.img-fluid.d-block.mx-auto.mb-4 {
+    width: 100%;
+    height: auto;
+}
+.blog-page a.btn.btn-primary {
+    display: none;
+}
+.blog-page .breadcrumb-heading {
+    font-size: 2em;
+}
+
   .rounded-pill {
     border-radius: 50rem !important;
   }
   
   .bg-green {
-    background-color: #5331E5; /* Green color */
+    background-color: #F18C29;/* Green color */
     color: white; /* Text color */
   }
   

@@ -4,11 +4,13 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { API_URL } from '../utils/api';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import Header from '../components/Header';
 import Footer from '../components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DOMPurify from 'dompurify'
 import parse from 'html-react-parser'
+import HeaderSection from '../components/Header';
+import aboutusbc from '../images/aboutus.png';
+import BreadcrumbSection from '../components/BreadCrumb';
 
 
 
@@ -35,11 +37,19 @@ const BlogPage = () => {
 
     return (
         <div className="blog-page">
+                 <HeaderSection/>
             <Helmet>
             {parse(blog?.meta_tags ?? '')}
             </Helmet>
-
-         <Header/>
+            <div>
+        
+            <BreadcrumbSection
+            heading={blog?.title}  // If blog.title is undefined, show "Blogs"
+            description="Welcome to the blog section of Design Printo, your go-to resource for all things printing."
+            backgroundImage={aboutusbc}
+            />
+            </div>
+        
          
 
             <section className="blog-section my-5">

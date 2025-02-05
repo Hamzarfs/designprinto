@@ -4,12 +4,13 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { API_URL, BRAND } from '../utils/api';
 import { Link } from 'react-router-dom';
-import Header from '../components/Header';
 import Footer from '../components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DOMPurify from 'dompurify'
-import parse from 'html-react-parser'
-
+import DOMPurify from 'dompurify';
+import parse from 'html-react-parser';
+import aboutusbc from '../images/aboutus.png';
+import HeaderSection from '../components/Header';
+import BreadcrumbSection from '../components/BreadCrumb';
 
 const BlogsPage = () => {
     const [featuredBlogs, setFeaturedBlogs] = useState([]);
@@ -77,6 +78,7 @@ const BlogsPage = () => {
 
     return (
         <div className="blogs-page">
+         <HeaderSection/>
             <Helmet>
                 <title>Design & Printing Insights | Tips, Trends, and Inspiration Blog</title>
                 <meta name="description" content="Discover our blog for the latest tips and trends on design and printing. Get inspired with ideas to enhance your projects and grow your business" />
@@ -84,9 +86,17 @@ const BlogsPage = () => {
                 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
               
             </Helmet>
-
-          <Header/>
+       
+        
          
+          <div>
+                <BreadcrumbSection
+                    heading="Blogs"
+                    description="Welcome to the blog section of Design Printo, your go-to resource for all things printing. "
+                    //buttonText="Get Started"
+                    backgroundImage={aboutusbc}
+                />
+            </div>
 
             {/* Herosection */}
             <section className="hero-section py-5">
@@ -105,7 +115,7 @@ const BlogsPage = () => {
                             <div className="blog-container mb-4">
                                 <Link to={`/${featuredBlogs[0]?.slug}`}>
                                     <div className="row">
-                                        <div className="col-md-12 col-lg-auto">
+                                        <div className="col-md-12">
                                             <img src={featuredBlogs[0]?.image_url} alt={featuredBlogs[0]?.title} className="img-fluid" />
                                         </div>
                                         <div className="col-md-12 col-lg">
